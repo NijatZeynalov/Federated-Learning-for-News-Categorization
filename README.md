@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 # Data Source
 
-The data used in this project is sourced from LocalDoc/news_azerbaijan_2. This dataset contains news articles from various Azerbaijani news agencies and is used to train and evaluate the news categorization models.
+The data used in this project is sourced from LocalDoc/news_azerbaijan_2. 
 
 # Configure the parameters:
 
