@@ -1,8 +1,6 @@
 # Overview
 
-This project demonstrates the application of Federated Learning to improve news categorization models for different news agencies such as oxu.az, musavat.com, and axar.az. These agencies cannot share their proprietary data with others due to privacy concerns or competitive reasons. Federated Learning allows them to collaboratively improve their models without sharing their data. 
-Suppose we have three news agencies: oxu.az, musavat.com, and axar.az. Each agency has its own dataset and wants to improve its news categorization model. By using Federated Learning, they can collaboratively train a robust model without sharing their data.
-
+This project demonstrates the application of Federated Learning to improve news categorization models for different news agencies such as oxu.az, musavat.com, and axar.az. These agencies cannot share their proprietary data with others due to privacy concerns or competitive reasons. Federated Learning allows them to collaboratively improve their models without sharing their data.
 
 # How Federated Learning Works
 
@@ -33,11 +31,9 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
-# Prepare your data:
+# Data Source
 
-* Place your data files in the data folder.
-* Ensure each client's data is in a separate CSV file named client_0.csv, client_1.csv, etc.
-* Each CSV file should have columns text and category.
+The data used in this project is sourced from LocalDoc/news_azerbaijan_2. This dataset contains news articles from various Azerbaijani news agencies and is used to train and evaluate the news categorization models.
 
 # Configure the parameters:
 
