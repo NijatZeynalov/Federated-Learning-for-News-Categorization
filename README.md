@@ -12,6 +12,26 @@ Federated Learning allows multiple parties to collaboratively train a machine le
 * Model Update: The updated global model weights are sent back to the clients.
 * Iteration: This process is repeated for a number of rounds until the model converges.
 
+### Explanation
+
+![Source](https://github.com/NijatZeynalov/Federated-Learning-for-News-Categorization/assets/31247506/6a1b5c37-6512-42bd-b85c-6a51a82fbff5)
+
+
+The diagram above illustrates the Federated Learning system. This process ensures that the data never leaves the client's environment, preserving privacy and security while allowing collaborative learning.
+
+> Central Server: This is where the global model resides.
+
+> Global Model: The central server maintains the global model which aggregates updates from all clients.
+
+> Clients: Each client represents a participating entity (e.g., a news agency) with its own local model.
+
+> Local Model: Each client trains its local model on its own data.
+
+> Model Updates: After local training, clients send their model updates (weights) to the central server.
+
+> Global Model Update: The central server aggregates these updates to improve the global model and then sends the updated global model back to the clients.
+
+
 # Benefits
 
 * Privacy: Each news agency's data remains on-premises and is never shared.
